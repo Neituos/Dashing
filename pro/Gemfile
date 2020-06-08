@@ -4,4 +4,7 @@ gem 'smashing'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 ## Uncomment this if you want to see use the twitter widget.
-# gem 'twitter', '>= 5.9.0'
+gem 'twitter', '>= 5.9.0'
+
+gem 'faraday'
+gem 'faraday_middleware'
