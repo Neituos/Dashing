@@ -1,5 +1,5 @@
-ENV['TZ'] = 'Asia/Shanghai' # your time zone 
-require'eventmachine'
+ENV['TZ'] = 'Etc/GMT+1' # your time zone 
+
 require 'dashing'
 
 configure do
