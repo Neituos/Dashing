@@ -1,6 +1,7 @@
 class Dashing.Number extends Dashing.Widget
   @accessor 'current', Dashing.AnimatedValue
 
+  # Calcule la différence en% entre les valeurs actuelles et dernières.
   @accessor 'difference', ->
     if @get('last')
       last = parseInt(@get('last'))
