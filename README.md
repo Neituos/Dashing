@@ -46,10 +46,14 @@ $ smashing start
 
 ## Démarrage
 
-5.Démarrez le serveur !
+1.Télécharger le projet
+2.Lancer un terminal ou cmd
+3.Positionnez-vous dans le dossier pro
+$ cd pro
+4.lancer la commande
 $ smashing start
+5.Pointez votre navigateur sur localhost:3030 et amusez-vous !
 
-6.Pointez votre navigateur sur localhost:3030 et amusez-vous !
 
 ## Fabriqué avec
 
