@@ -1,13 +1,24 @@
-<img class="logo" src="https://raw.githubusercontent.com/atatus/dashing-atatus/master/assets/images/Atatus_Icon.png">
-
 <h1 class="title" data-bind="title"></h1>
 
-<h2 class="value" data-bind="current"></h2>
+<ol>
+  <li data-foreach-item="items">
+    <span class="label" data-bind="item.label"></span>
+    
+    <span class="value" data-bind="item.value"></span>
+    <span class="date" data-bind="item.date"></span>
+    
+  </li>
+</ol>
 
-<p class="change-rate">
-  <i data-bind-class="arrow"></i><span data-bind="difference"></span>
-</p>
+<ul class="list-nostyle">
+  <li data-foreach-item="items">
+    <span class="label" data-bind="item.label"></span>
+   
+    <span class="value" data-bind="item.value"></span>
+    <span class="date" data-bind="item.date"></span>
+    
+  </li>
+</ul>
 
 <p class="more-info" data-bind="moreinfo"></p>
-
 <p class="updated-at" data-bind="updatedAtMessage"></p>
