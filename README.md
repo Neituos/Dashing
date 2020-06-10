@@ -1,8 +1,8 @@
 # DASHBOARD Ruby
 DashingRuby
-_(juste en dessous des badges sympatiques à placer)_
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) 
+
 Smashing est un framework basé sur Sinatra qui vous permet de créer de magnifiques tableaux de bord.
 
 Principales caractéristiques:
